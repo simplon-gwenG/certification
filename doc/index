@@ -1,0 +1,30 @@
+Session_start()
+
+Header
+    Titre
+    if (!log) -> Formulaire de connexion
+    else -> Info compte (login, niveau de privilege, profil, deconnexion)
+
+    la connexion se fait dans le header (action="header.php"). ca actualise la page et change ou affiche le menu en fonction des privileges du compte.
+
+
+
+Menu
+    Si admin
+        creer article
+        modifier article
+        back-office
+
+
+
+
+Section
+    Articles
+        titre
+        corps
+        auteur
+        avatar auteur
+        date
+
+
+Footer
